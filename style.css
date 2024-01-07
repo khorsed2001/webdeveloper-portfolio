@@ -11,19 +11,35 @@ body {
 .btn-praymary {
     border-radius: 5px;
     background: #FD6E0A;
-    border:0;
-    color:white;
+    border: 0;
+    color: white;
     font-size: 20px;
     font-weight: 700;
-    padding:15px 35px;
+    padding: 15px 35px;
 }
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 
 /* Nav Related Style */
 nav {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    margin:0 200;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -47,33 +63,65 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
+
+
+
+
 /* Header Related Style */
-.header{
+.header {
     background-color: #FFF8F3;
     background-image: url(images/header_bg.png);
     background-repeat: no-repeat;
-    background-position:bottom right;
+    background-position: bottom right;
 }
-.banner{
-    padding:30px 30px 0px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
 }
-.banner .profile-picture{
-    width:500px;
+
+.banner .profile-picture {
+    width: 500px;
 
 }
-.banner-greeting{
+
+.banner-greeting {
     font-size: 45px;
-    color:#474747;
+    color: #474747;
     margin-bottom: 0;
 }
-.banner-title{
-    font-size:85px;
+
+.banner-title {
+    font-size: 85px;
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.banner-content{
-    max-width:500px;
+
+.banner-content {
+    max-width: 500px;
+}
+
+/* ====================================
+abour section style
+======================================= */
+
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding:130px;
+    margin:130px 0;
+}
+.about-info-container{
+    display:flex;
+    justify-content:space-around;
+}
+.about-info{
+    text-align:center;
 }
