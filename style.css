@@ -50,6 +50,7 @@ nav {
 
 nav>ul {
     display: flex;
+    align-items: center;
 
 
 }
@@ -121,7 +122,9 @@ main{
 .about-info-container{
     display:flex;
     justify-content:space-around;
+
 }
 .about-info{
     text-align:center;
+
 }
